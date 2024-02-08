@@ -1,38 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Justal Diana</title>
-    <meta name="description" content="My Profile page">
-    <meta name="keywords" content="Justal, Diana, Profile, Page">
-    <meta name="author" content="Justal Diana">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles/global.css" rel="stylesheet" />
-    <link href="styles/style.css" rel="stylesheet" />
-</head>
-<body id="home">
-    <div class="content">
-        <div class="content__block">
-            <h1>Hello, I'm Dee</h1>
-            <img class="content__block__profile" src="./assets/justal-diana.jpg" alt="Justal Diana"/>
-            <span class="content__block__description">Ako'y tahimik lang sa umpisa kahit 'di mo 'ko pilitin</span>
-            <a class="content__block__button" href="https://www.linkedin.com/in/diana-garcia-justal-60551b299/" target="_blank" aria-label="Discover me" name="Discover me">Discover Me</a>
+    <head>
+        <meta charset="UTF-8">
+        <title>Justal Diana</title>
+        <meta name="description" content="My Profile page">
+        <meta name="keywords" content="Justal, Diana, Profile, Page">
+        <meta name="author" content="Justal Diana">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles/global.css" rel="stylesheet" />
+        <link href="styles/style.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet">
+    </head>
+    <body id="home">
+        <div class="content">
+            <div class="content__block">
+                <h1>Hello, I'm Dee <span class="material-icons">face</span></h1>
+                <img class="content__block__profile"
+                    src="./assets/justal-diana.jpg" alt="Justal Diana" />
+                <span class="content__block__description">Ako'y tahimik lang sa
+                    umpisa kahit 'di mo 'ko pilitin</span>
+                <a class="content__block__button"
+                    href="https://www.linkedin.com/in/diana-garcia-justal-60551b299/"
+                    target="_blank" aria-label="Discover me"
+                    name="Discover me">Discover Me</a>
+            </div>
+            <div class="content__block">
+                <h2>Life in France <span class="material-icons">home</span></h2>
+                <span class="content__block__description">Settling, adjusting,
+                    and navigating La vie française</span>
+            </div>
+            <div class="content__block">
+                <h2>My Student Journey <span class="material-icons">
+                        perm_identity
+                    </span></h2>
+                <span class="content__block__description">Continuing my master's
+                    studies after years of hiatus from being a young mom of
+                    2</span>
+            </div>
+            <div class="content__block">
+                <h2>Follow me <span class="material-icons">
+                        follow_the_signs
+                    </span></h2>
+                <ul>
+                    <li><a href="https://www.facebook.com/wolfcat1997"
+                            target="_blank"
+                            aria-label="The facebook of Justal Diana"
+                            name="Facebook">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/nootropicsqueen/"
+                            target="_blank"
+                            aria-label="The instagram of Justal Diana"
+                            name="Instagram">Instagram</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="content__block">
-            <h2>Life in France</h2>
-            <span class="content__block__description">Settling, adjusting, and navigating La vie française</span>
-        </div>
-        <div class="content__block">
-            <h2>My Student Journey</h2>
-            <span class="content__block__description">Continuing my master's studies after years of hiatus from being a young mom of 2</span>
-        </div>
-        <div class="content__block">
-            <h2>Follow me</h2>
-            <ul>
-                <li><a href="https://www.facebook.com/wolfcat1997" target="_blank" aria-label="The facebook of Justal Diana" name="Facebook">Facebook</a></li>
-                <li><a href="https://www.instagram.com/nootropicsqueen/" target="_blank" aria-label="The instagram of Justal Diana" name="Instagram">Instagram</a></li>
-            </ul>
-        </div>
-    </div>
-</body>
+        <script>
+        mdc.ripple.MDCRipple.attachTo(document.querySelector('.foo-button'));
+    </script>
+    </body>
 </html>
