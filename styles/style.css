@@ -44,6 +44,9 @@
     text-decoration: none;
     border: 1px solid #57a1ed;
     transition: 0.2s all ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .content__block__button:hover {
@@ -53,6 +56,16 @@
 
 .content__block__description {
     text-align: center;
+}
+
+.fa-facebook {
+    color: #4267B2;
+    font-size: 24px;
+}
+
+.fa-instagram {
+    font-size: 24px;
+    color: #fd1d1d;
 }
 
 @media screen and (max-width: 1920px) {

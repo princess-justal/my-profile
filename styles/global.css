@@ -28,6 +28,13 @@ span {
     user-select: none;
 }
 
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    display: flex;
+    gap: 10px;
+}
+
 @media screen and (max-width: 768px) {
     body {
         margin-top: 24px;
