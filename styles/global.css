@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+ul,
+h2,
+h1 {
+    margin: 0;
+}
+
+h1 {
+    color: #64a2f0;
+}
+
+h2 {
+    color: #64f0c4;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        margin-top: 24px;
+    }
+}
