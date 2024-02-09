@@ -10,27 +10,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles/global.css" rel="stylesheet" />
     <link href="styles/page.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="page">
+        <div class="page__prebanner">
+            <span class="page__prebanner__title roboto-light"><i class="fa-solid fa-sun"></i>Mabuhay Center</span>
+        </div>
         <div class="page__banner">
-            
+            <div class="page__banner__info">
+                <img class="page__banner__line" src="./assets/line.webp"></img>
+                <h1 class="page__banner__title roboto-black">Improve your Tagalog skills. Converse like a local.</h1>
+                <h2 class="page__banner__subtitle roboto-medium">Welcome to our Tagalog Learning Hub!</h2>
+                <span class="page__banner__description roboto-regular">Mabuhay! Are you ready to embark on an exciting journey to learn Tagalog, the beautiful language of the Philippines? You've come to the right place!</span>
+                <a href="#contact" class="page__button roboto-black">Contact Us</a>
+            </div>
+            <img class="page__banner__filipina" src="./assets/filipina.png"></img>
+        </div>
+        <div class="page__promo">
+            <span class="page__promo__tagalog roboto-medium"><i class="fa-solid fa-quote-left page__promo__tagalog__left"></i>Mabilis lang ako natuto mag-Tagalog gamit ang website nila<i class="fa-solid fa-quote-right page__promo__tagalog__right"></i></span>
+            <span class="page__promo__english roboto-regular">It was so easy to learn tagalog with their website</span>
         </div>
         <div class="page__grid">
+            <h2 class="page__grid__title roboto-medium"><img class="page__grid__title__line" src="./assets/line.webp" />Content of the course</h2>
             <div class="page__grid__cards">
                 <div class="page__grid__cards__card">
-                    <img class="page__grid__cards__card__img" src="./assets/1.png"></img>
+                    <img class="page__grid__cards__card__img" src="./assets/1.jpg"></img>
                     <div>The Complete Tagalog Lesson</div>
                 </div>
-                <div class="page__grid__cards__card"><img class="page__grid__cards__card__img" src="./assets/2.jpg" /><div>Tagalog Podcasts</div></div>
-                <div class="page__grid__cards__card"><img class="page__grid__cards__card__img" src="./assets/3.jpg" /><div>Tagalog Videos</div></div>
+                <div class="page__grid__cards__card"><img class="page__grid__cards__card__img" src="./assets/2.jpg" /><div>Exercises & Quizzes</div></div>
+                <div class="page__grid__cards__card"><img class="page__grid__cards__card__img" src="./assets/3.jpg" /><div>Forum</div></div>
             </div>
         </div>
-        <div class="page__block">
-            
+        <div class="page__promo">
+            <span class="page__promo__tagalog roboto-medium"><i class="fa-solid fa-quote-left page__promo__tagalog__left"></i>Ngayon, marunong na akong makipag-usap sa Tagalog sa mga kaibigan ko<i class="fa-solid fa-quote-right page__promo__tagalog__right"></i></span>
+            <span class="page__promo__english roboto-regular">I can now converse with my filipino friends</span>
+        </div>
+        <div id="contact" class="page__contact">
+            <h2 class="page__contact__title"><img class="page__contact__title__line" src="./assets/line.webp" />Contact Us</h2>
+            <div class="page__contact__split">
+                <img class="page__contact__split__right" src="./assets/talking.png" />
+                <div class="page__contact__split__left" data-tf-live="01HP6XB3F0CXRAPF7D0Z1EYVZX"></div>
+            </div>
+        </div>
+        <div class="page__promo">
+            <span class="page__promo__tagalog roboto-medium"><i class="fa-solid fa-quote-left page__promo__tagalog__left"></i>Hindi katagalan at naging conyo na din ako<i class="fa-solid fa-quote-right page__promo__tagalog__right"></i></span>
+            <span class="page__promo__english roboto-regular">After a while, I became a conyo</span>
+        </div>
+        <div class="page__footer">
+            <p class="roboto-light">&copy; 2023-2024 Mabuhay Center. All rights reserved.</p>
         </div>
     </div>
+    <script src="https://embed.typeform.com/next/embed.js"></script>
 </body>
+
 
 </html>
